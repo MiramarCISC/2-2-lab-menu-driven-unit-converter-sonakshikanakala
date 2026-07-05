@@ -20,11 +20,11 @@ double kilogramsToPounds(double kilograms) {
 }
 
 double fahrenheitToCelsius(double fahrenheit) {
-    return (fahrenheit - 32.0) * 5.0/9.0;
+    return (fahrenheit - 32.0) * 5.0 / 9.0; //achen: added spaces
 }
 
 double celsiusToFahrenheit(double celsius) {
-    return (celsius * 9.0/5.0) + 32.0;
+    return (celsius * 9.0 / 5.0) + 32.0; //achen: added spaces
 }
 
 bool isValidMenuChoice(int choice) {
